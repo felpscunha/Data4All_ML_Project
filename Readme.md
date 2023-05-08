@@ -102,11 +102,11 @@ Os objetivos deste projeto são:
 # Ferramentas Usadas
 Este projeto foi concluído usando Python e suas bibliotecas associadas, como:
 
-- NumPy,
-- Pandas,
-- Matplotlib,
-- Seaborn,
-- Scikit-learn,
+- NumPy;
+- Pandas;
+- Matplotlib;
+- Seaborn;
+- Scikit-learn;
 - ipykernel.
 
 # Integrantes
@@ -190,16 +190,29 @@ deactivate
 ```sh
 .
 ├── License
-├── Readme.md
 ├── main
 │   ├── datasets
-│   │   └── ...
-│   ├── models
-│   │   └── ...
+│   │   ├── processed
+│   │   │   └── balanced_dataset.pkl
+│   │   └── raw
+│   │       ├── testing_data.csv
+│   │       └── training_data.csv
 │   ├── notebooks
-│   │   └── ...
-│   └── raw
-│       └── ...
+│   │   ├── eda
+│   │   │   ├── aline.ipynb
+│   │   │   ├── andre.ipynb
+│   │   │   ├── felipe.ipynb
+│   │   │   └── matheus.ipynb
+│   │   ├── model
+│   │   │   ├── aline.ipynb
+│   │   │   ├── andre.ipynb
+│   │   │   ├── felipe.ipynb
+│   │   │   └── matheus.ipynb
+│   │   ├── model.ipynb
+│   │   └── Readme.md
+│   └── outputs
+│       └── Readme.md
+├── Readme.md
 └── utils
     ├── environment.yml
     └── requirements.txt
